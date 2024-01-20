@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.main-calculator {
+    height: 600px;
+    width: 375px;
+    background-color: rgb(43, 41, 41);
+    margin: 0 auto;
+    margin-top: 85px;
+    border: 3px solid #b5b2b2;   
+}
+
+.screen {
+    height: 200px;
+    width: 369px;
+    background-color: #cdd6d5;
+    border: 3px solid #b5b2b2;
+    text-align: right;
+}
+
+.screen > span {
+    font-size: 150px;
+    line-height: 200px;
+}
+
+.interface > button {
+    height: 90px;
+    width: 90px;
+    background-color: #828282;
+}
+
+.interface > .buttonCE {
+    background-color: #d35144;
+
+}
